@@ -96,8 +96,24 @@ lis.reverse()
 print(lis)
 print()
 
+#join()
+sentence = ['Hi,','I','am','Shivaraj','B','Deyannavar']
+str1=' '.join(sentence)
+print(str1)
+print()
+
 #use of range() to create a list
 print(list(range(1,5)))
 print(list(range(10)))
 print(list(range(10,1,-2)))
+print()
+
+#list unpacking
+a,b,c,*other_elements,d,e=[1,2,3,4,5,6,7,8]
+print(a)
+print(b)
+print(c)
+print(other_elements)
+print(d)
+print(e)
 print()
