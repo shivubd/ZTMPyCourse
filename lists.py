@@ -102,6 +102,11 @@ str1=' '.join(sentence)
 print(str1)
 print()
 
+#clear()
+lis.clear()
+print(lis)
+print()
+
 #use of range() to create a list
 print(list(range(1,5)))
 print(list(range(10)))
